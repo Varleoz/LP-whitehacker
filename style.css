@@ -1,0 +1,123 @@
+:root {
+ --red: #eb4a4a;
+
+
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    display: fixed;
+
+
+}
+.home, .about, .contact {
+
+margin: 2rem;
+margin-left: 4rem;
+
+}
+
+.navbar a {
+     text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: var(--red);
+
+}
+ .meio {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: var(--red) !important;
+    width: 18rem;
+    height: auto;
+    font-size: 8rem;
+    margin-left: 14rem;
+}
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+   
+}
+
+.img1 {
+    position: absolute;
+    left: 25rem;
+    top: -3rem;
+    width: 50rem;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.5;
+
+}
+
+.text-right {
+    position: relative;
+    max-width: 30rem;
+    margin-right: 2rem;
+    z-index: 1;
+    
+}
+
+.text-left {
+    text-align: right;
+}
+.numero {
+    font-size: 4rem;
+    margin: 0;
+}
+.mais{
+    color: var(--red);
+    font-size: 3rem;
+}
+
+.h {
+    font-size: 2rem;
+     margin-top: 0 ;
+    margin-bottom: 0.2rem ;
+}
+.i {
+    font-size: 1.5rem;
+    color: var(--red);
+   
+    
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+}
+
+button {
+ background-color: var(--red);
+ color: white;
+ width: 8rem;
+ height: 2.5rem;
+ font-size: 1rem;
+ border: none;
+ cursor: pointer;
+ border-radius: 0.3rem;
+ font-weight: bold;
+}
+
+button:hover{
+    background-color: white;
+    
+    color: var(--red);
+    box-shadow: 0.1rem 0rem 1rem 0.1rem  rgb(37, 31, 31);
+}
+
